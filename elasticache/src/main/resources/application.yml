@@ -1,0 +1,17 @@
+logging:
+  level:
+    com.amazonaws: WARN
+    com.aronim: INFO
+    org.springframework: WARN
+    org.springframework.data.redis: DEBUG
+    org.redis: DEBUG
+    redis: DEBUG
+    com.amazonaws.services.elasticache: DEBUG
+
+cloud:
+  aws:
+    region:
+      auto: false
+      static: us-east-1
+    stack:
+      auto: false
